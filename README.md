@@ -1,6 +1,8 @@
 # SOJO: A platform that makes music-therapist-patient interactions easier before, between, and after sessions.
 
-![example workflow](https://github.com/sojoai/Music-Therapy-API/actions/workflows/django.yml/badge.svg) [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9885/badge)](https://www.bestpractices.dev/projects/9885)
+![example workflow](https://github.com/sojoai/Music-Therapy-API/actions/workflows/django.yml/badge.svg) 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9885/badge)](https://www.bestpractices.dev/projects/9885)
+[![codecov](https://codecov.io/gh/riseworksco/Therapist-Copilot/graph/badge.svg?token=W5QKQEC4WJ)](https://codecov.io/gh/riseworksco/Therapist-Copilot)
 
 <a href="https://www.producthunt.com/posts/sojo-music-therapist-copilot?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sojo&#0045;music&#0045;therapist&#0045;copilot" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=449369&theme=light" alt="SOJO&#0032;Music&#0032;Therapist&#0032;Copilot - a&#0032;software&#0032;toolbox&#0032;for&#0032;music&#0032;therapists | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
