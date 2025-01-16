@@ -1,8 +1,7 @@
-from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import FormView
 
-from .forms import GAD7Form
+from assessment.forms.sheetGAD_forms import GAD7Form
 
 
 class GADView(FormView):

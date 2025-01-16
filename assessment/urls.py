@@ -14,9 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-from django.contrib import admin
-from django.db import router
-from django.urls import include, path, re_path
+from django.urls import path, re_path
 
 from assessment.views import (
     AAQ2View,
@@ -33,6 +31,10 @@ from assessment.views import (
 )
 
 from . import views
+from .views.sheetAAQII_views import AAQIIView
+from .views.sheetCAM1_views import CAMView
+from .views.sheetGAD_views import GADView
+from .views.sheetPHQ_views import PHQView
 
 # import patient_management
 app_name = "assessment"
@@ -62,4 +64,10 @@ urlpatterns = [
     path("GAD7/", GAD7View.as_view(), name="GAD7"),
     path("PHQ9/", PHQ9View.as_view(), name="PHQ9"),
     path("RAS/", RASView.as_view(), name="RAS"),
+    path("sheet4AT/", AT4View.as_view(), name="sheet4AT"),
+    path("AAQII/", AAQIIView.as_view(), name="AAQII"),
+    path("sheetCAM1/", CAMView.as_view(), name="CAM1"),
+    path("GAD/", GADView.as_view(), name="GAD"),
+    path("PHQ/", PHQView.as_view(), name="PHQ"),
+    path("RAS/", RASView.as_view(), name="RAS")
 ]
