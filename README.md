@@ -7,7 +7,7 @@
 ## Team
 
 - Yuan Chen
-- Jingyu Chen
+- Jingyu Xiong
 
 ## Related Project
 
