@@ -1,13 +1,7 @@
-import io
-
-from django.contrib.auth.decorators import login_required
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.http import FileResponse
 from django.urls import reverse_lazy
-from django.views.generic import FormView, TemplateView
-from reportlab.pdfgen import canvas
+from django.views.generic import FormView
 
-from sheetCAM1.forms import CAMForm
+from assessment.forms.sheetCAM1_forms import CAMForm
 
 
 class CAMView(FormView):

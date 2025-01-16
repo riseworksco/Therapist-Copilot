@@ -66,13 +66,7 @@ INSTALLED_APPS = [
     "chat",
     "accounts",
     "assessment",
-    "sheetRAS",
-    "sheet4AT",
-    "sheetCAM1",
     "findatherapist",
-    "sheetAAQII",
-    "sheetGAD",
-    "sheetPHQ",
     "api",
 ]
 
