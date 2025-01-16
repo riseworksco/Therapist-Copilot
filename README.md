@@ -1,4 +1,4 @@
-# SOJO: A platform that makes music-therapist-patient interactions easier before, between, and after sessions.
+# SOJO: AI Copilot for Therapists
 
 ![example workflow](https://github.com/sojoai/Music-Therapy-API/actions/workflows/django.yml/badge.svg) 
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9885/badge)](https://www.bestpractices.dev/projects/9885)
