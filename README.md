@@ -38,13 +38,18 @@ prompt_message = "You are a music therapist. you are about treat {$patient name}
 
 
 '''
-## Chat
+## Chat Interface
 
-![image](https://github.com/chenyuan99/Music-Therapy-API/assets/25518100/13143a27-531f-4a0c-a7c8-188cdd194545)
+We are panning to use huggingface chat UI or One Web UI to achieve this
 
 ## Awards
+![image](https://github.com/user-attachments/assets/dc3c587c-1faf-4e06-894e-44aee4e27de8)
 
+## RiseWorks Alum
 
+- Jack Shen
+- Vincent Wu
+- Angela Peng
 
 ## Acknowledgment
 
